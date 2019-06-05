@@ -1,12 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Suite">
-  <test thread-count="5" name="Test">
-    <classes>
-      <class name="TrialE2E.TrialE2E.HomePageTests"/>
+<listeners>
+<listener class-name="TrialE2E.TrialE2E.listeners"/>
+<listener class-name="TrialE2E.TrialE2E.ExtentReporterNG1"/>
+
+</listeners>
+
+
+       
+       
+       
+       
+        <test name = "App Test">
+        <classes>
       <class name="TrialE2E.TrialE2E.AppTest"/>
-      <class name="TrialE2E.TrialE2E.Base"/>
-      <class name="TrialE2E.TrialE2E.ValidateLogInMessage"/>
+       </classes>
+       </test>
+  <test name = "LogIn Message Test">
+        <classes>
+        <class name="TrialE2E.TrialE2E.TestValidateLogInMessage"/>
     </classes>
-  </test> <!-- Test -->
+     </test> 
+     
+       <test name="HomePageTest">
+    <classes>
+      <class name="TrialE2E.TrialE2E.TestHomePageTests"/>
+      </classes>
+       </test>
+       
+     
 </suite> <!-- Suite -->

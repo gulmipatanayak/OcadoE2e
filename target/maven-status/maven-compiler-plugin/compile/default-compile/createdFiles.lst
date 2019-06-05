@@ -1,4 +1,6 @@
-TrialE2E\TrialE2E\LogInPageOR.class
+PageObjects\LogInPageOR.class
+TrialE2E\TrialE2E\listeners.class
+TrialE2E\TrialE2E\ExtentReporterNG1.class
 TrialE2E\TrialE2E\App.class
+PageObjects\HomePageOR.class
 TrialE2E\TrialE2E\Base.class
-TrialE2E\TrialE2E\HomePageOR.class

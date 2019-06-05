@@ -5,9 +5,9 @@
     <classes>
       <class name="TrialE2E.TrialE2E.HomePageTests">
         <methods>
+          <include name="initiate"/>
           <include name="tearDown"/>
-          <include name="startup"/>
-          <include name="HomePageTest" invocation-numbers="1 2"/>
+          <include name="HomePageTest"/>
         </methods>
       </class> <!-- TrialE2E.TrialE2E.HomePageTests -->
     </classes>

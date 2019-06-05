@@ -14,7 +14,7 @@ public class AppTest
      * Create the test case
      *
      * @param testName name of the test case
-     */
+     *nnnn/
     public AppTest( String testName )
     {
         super( testName );
