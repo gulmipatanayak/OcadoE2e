@@ -2,14 +2,14 @@
 <testng-results ignored="0" total="4" passed="3" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2019-06-05T22:16:42Z" name="Suite" finished-at="2019-06-05T22:17:16Z" duration-ms="33951">
+  <suite started-at="2019-06-10T15:27:12Z" name="Suite" finished-at="2019-06-10T15:27:51Z" duration-ms="38929">
     <groups>
     </groups>
-    <test started-at="2019-06-05T22:16:42Z" name="App Test" finished-at="2019-06-05T22:16:42Z" duration-ms="0">
+    <test started-at="2019-06-10T15:27:12Z" name="App Test" finished-at="2019-06-10T15:27:12Z" duration-ms="5">
     </test> <!-- App Test -->
-    <test started-at="2019-06-05T22:16:42Z" name="LogIn Message Test" finished-at="2019-06-05T22:16:54Z" duration-ms="12037">
+    <test started-at="2019-06-10T15:27:12Z" name="LogIn Message Test" finished-at="2019-06-10T15:27:24Z" duration-ms="12109">
       <class name="TrialE2E.TrialE2E.TestValidateLogInMessage">
-        <test-method signature="TextValidation()[pri:0, instance:TrialE2E.TrialE2E.TestValidateLogInMessage@655a5d9c]" started-at="2019-06-05T22:16:42Z" name="TextValidation" finished-at="2019-06-05T22:16:53Z" duration-ms="11637" status="FAIL">
+        <test-method signature="TextValidation()[pri:0, instance:TrialE2E.TrialE2E.TestValidateLogInMessage@655a5d9c]" started-at="2019-06-10T15:27:12Z" name="TextValidation" finished-at="2019-06-10T15:27:24Z" duration-ms="11668" status="FAIL">
           <exception class="junit.framework.ComparisonFailure">
             <message>
               <![CDATA[expected:<123...> but was:<...>]]>
@@ -56,13 +56,13 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
         </test-method> <!-- TextValidation -->
       </class> <!-- TrialE2E.TrialE2E.TestValidateLogInMessage -->
     </test> <!-- LogIn Message Test -->
-    <test started-at="2019-06-05T22:16:54Z" name="HomePageTest" finished-at="2019-06-05T22:17:16Z" duration-ms="21843">
+    <test started-at="2019-06-10T15:27:24Z" name="HomePageTest" finished-at="2019-06-10T15:27:51Z" duration-ms="26756">
       <class name="TrialE2E.TrialE2E.TestHomePageTests">
-        <test-method is-config="true" signature="initiate()[pri:0, instance:TrialE2E.TrialE2E.TestHomePageTests@f713686]" started-at="2019-06-05T22:16:54Z" name="initiate" finished-at="2019-06-05T22:17:02Z" duration-ms="8005" status="PASS">
+        <test-method is-config="true" signature="initiate()[pri:0, instance:TrialE2E.TrialE2E.TestHomePageTests@f713686]" started-at="2019-06-10T15:27:24Z" name="initiate" finished-at="2019-06-10T15:27:32Z" duration-ms="8145" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initiate -->
-        <test-method signature="HomePageTest(java.lang.String, java.lang.String)[pri:0, instance:TrialE2E.TrialE2E.TestHomePageTests@f713686]" started-at="2019-06-05T22:17:02Z" name="HomePageTest" data-provider="datasets" finished-at="2019-06-05T22:17:07Z" duration-ms="4840" status="PASS">
+        <test-method signature="HomePageTest(java.lang.String, java.lang.String)[pri:0, instance:TrialE2E.TrialE2E.TestHomePageTests@f713686]" started-at="2019-06-10T15:27:32Z" name="HomePageTest" data-provider="datasets" finished-at="2019-06-10T15:27:38Z" duration-ms="6052" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -78,7 +78,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- HomePageTest -->
-        <test-method signature="HomePageTest(java.lang.String, java.lang.String)[pri:0, instance:TrialE2E.TrialE2E.TestHomePageTests@f713686]" started-at="2019-06-05T22:17:07Z" name="HomePageTest" data-provider="datasets" finished-at="2019-06-05T22:17:10Z" duration-ms="3522" status="PASS">
+        <test-method signature="HomePageTest(java.lang.String, java.lang.String)[pri:0, instance:TrialE2E.TrialE2E.TestHomePageTests@f713686]" started-at="2019-06-10T15:27:38Z" name="HomePageTest" data-provider="datasets" finished-at="2019-06-10T15:27:44Z" duration-ms="5453" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -94,7 +94,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- HomePageTest -->
-        <test-method signature="HomePageTest(java.lang.String, java.lang.String)[pri:0, instance:TrialE2E.TrialE2E.TestHomePageTests@f713686]" started-at="2019-06-05T22:17:10Z" name="HomePageTest" data-provider="datasets" finished-at="2019-06-05T22:17:13Z" duration-ms="3005" status="PASS">
+        <test-method signature="HomePageTest(java.lang.String, java.lang.String)[pri:0, instance:TrialE2E.TrialE2E.TestHomePageTests@f713686]" started-at="2019-06-10T15:27:44Z" name="HomePageTest" data-provider="datasets" finished-at="2019-06-10T15:27:49Z" duration-ms="4856" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -110,7 +110,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- HomePageTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:TrialE2E.TrialE2E.TestHomePageTests@f713686]" started-at="2019-06-05T22:17:13Z" name="tearDown" finished-at="2019-06-05T22:17:16Z" duration-ms="2455" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TrialE2E.TrialE2E.TestHomePageTests@f713686]" started-at="2019-06-10T15:27:49Z" name="tearDown" finished-at="2019-06-10T15:27:51Z" duration-ms="2243" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

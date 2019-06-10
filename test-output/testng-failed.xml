@@ -7,11 +7,11 @@
   </listeners>
   <test thread-count="5" name="LogIn Message Test(failed)">
     <classes>
-      <class name="TrialE2E.TrialE2E.ValidateLogInMessage">
+      <class name="TrialE2E.TrialE2E.TestValidateLogInMessage">
         <methods>
           <include name="TextValidation"/>
         </methods>
-      </class> <!-- TrialE2E.TrialE2E.ValidateLogInMessage -->
+      </class> <!-- TrialE2E.TrialE2E.TestValidateLogInMessage -->
     </classes>
   </test> <!-- LogIn Message Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

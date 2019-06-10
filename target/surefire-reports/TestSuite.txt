@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 4, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 36.857 s <<< FAILURE! - in TestSuite
-TextValidation(TrialE2E.TrialE2E.TestValidateLogInMessage)  Time elapsed: 12.01 s  <<< FAILURE!
+Tests run: 4, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 42.878 s <<< FAILURE! - in TestSuite
+TextValidation(TrialE2E.TrialE2E.TestValidateLogInMessage)  Time elapsed: 12.081 s  <<< FAILURE!
 junit.framework.ComparisonFailure: expected:<123...> but was:<...>
 	at TrialE2E.TrialE2E.TestValidateLogInMessage.TextValidation(TestValidateLogInMessage.java:37)
 
